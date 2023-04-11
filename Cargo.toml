@@ -11,7 +11,7 @@ name = "songbird"
 readme = "README.md"
 repository = "https://github.com/serenity-rs/songbird.git"
 rust-version = "1.61"
-version = "0.3.0"
+version = "0.3.2"
 
 [dependencies]
 async-trait = { optional = true, version = "0.1" }
@@ -44,8 +44,8 @@ tokio-tungstenite = { optional = true, version = "0.18" }
 tokio-util = { features = ["io"], optional = true, version = "0.7" }
 tracing = { version = "0.1", features = ["log"] }
 tracing-futures = "0.2"
-twilight-gateway = { default-features = false, optional = true, version = "0.14.0" }
-twilight-model = { default-features = false, optional = true, version = "0.14.0" }
+twilight-gateway = { default-features = false, optional = true, version = "0.15.0" }
+twilight-model = { default-features = false, optional = true, version = "0.15.0" }
 typemap_rev = { optional = true, version = "0.3" }
 url = { optional = true, version = "2" }
 uuid = { features = ["v4"], optional = true, version = "1" }
